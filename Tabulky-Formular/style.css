@@ -13,3 +13,6 @@ body {
     color: rgb(238, 107, 31);
 }
 
+label {
+    margin: 10px;
+}
