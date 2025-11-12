@@ -3,3 +3,81 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url("https://images.pexels.com/photos/678425/pexels-photo-678425.jpeg?cs=srgb&dl=man-taking-photo-using-black-canon-dslr-camera-678425.jpg&fm=jpg");
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.btn-main {
+    border: none;
+    background-color: lightskyblue;
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    padding-top: 80px;
+}
+
+main div p {
+    padding-bottom: 30px;
+}
+
+main img {
+    padding-bottom: 30px;
+}
+
+section {
+    background-color: rgb(214, 214, 214);
+    padding: 30px;
+}
+
+section #layout {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
